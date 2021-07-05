@@ -1,0 +1,2209 @@
+{
+  "intents": [
+    {
+      "intent": "comeback",
+      "examples": [
+        {
+          "text": "* comeback *"
+        },
+        {
+          "text": "come back *"
+        },
+        {
+          "text": "* I have no plan for further journey*"
+        },
+        {
+          "text": "* I will return*"
+        },
+        {
+          "text": "* no further plan*"
+        },
+        {
+          "text": "No, i have no such plans"
+        },
+        {
+          "text": "Not now"
+        },
+        {
+          "text": "return *"
+        },
+        {
+          "text": "*return back*"
+        }
+      ]
+    },
+    {
+      "intent": "company_details",
+      "examples": [
+        {
+          "text": "Apollo Munich"
+        },
+        {
+          "text": "AUM"
+        },
+        {
+          "text": "claim settlement ratio"
+        },
+        {
+          "text": "claims settled"
+        },
+        {
+          "text": "claims settlement ratio"
+        },
+        {
+          "text": "company capability"
+        },
+        {
+          "text": "Name of Regulatory body for insurance"
+        },
+        {
+          "text": "Overview"
+        },
+        {
+          "text": "ranking"
+        },
+        {
+          "text": "What is the last year turnover for Apollo Munich"
+        },
+        {
+          "text": "What is the ranking of Apollo?"
+        }
+      ]
+    },
+    {
+      "intent": "depart_greetings",
+      "examples": [
+        {
+          "text": "awesome"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "cool"
+        },
+        {
+          "text": "good night"
+        },
+        {
+          "text": "I will get back to you later. Thank you"
+        },
+        {
+          "text": "later"
+        },
+        {
+          "text": "nice"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "ok thanks. I will get back to you later"
+        },
+        {
+          "text": "take care"
+        },
+        {
+          "text": "tc"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "thanks a lot"
+        },
+        {
+          "text": "Thank you"
+        }
+      ]
+    },
+    {
+      "intent": "EMI",
+      "examples": [
+        {
+          "text": "How much EMI should I pay?"
+        },
+        {
+          "text": "What does the EMI come upto?"
+        },
+        {
+          "text": "What is the EMI for this plan?"
+        }
+      ]
+    },
+    {
+      "intent": "exiting",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "no thanks"
+        },
+        {
+          "text": "nothing else"
+        },
+        {
+          "text": "nothing else for now"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thank you very much"
+        },
+        {
+          "text": "thats it"
+        }
+      ]
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You've been so helpful :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "Insurance_Get_Quote",
+      "examples": [
+        {
+          "text": "Affordable auto insurance estimate"
+        },
+        {
+          "text": "Can I get cost estimation for my policy?"
+        },
+        {
+          "text": "Can you help me out in evaluating the best price for buying a travel insurance?"
+        },
+        {
+          "text": "Can you share indicative rates for a car insurance policy?"
+        },
+        {
+          "text": "Compare your personal liability protection with others"
+        },
+        {
+          "text": "Do you offer a policy which doesn't cost me a fortune?"
+        },
+        {
+          "text": "How much does a life insurance policy cost?"
+        },
+        {
+          "text": "How much should I pay for auto insurance policy?"
+        },
+        {
+          "text": "I am interested in your most advanced policy."
+        },
+        {
+          "text": "I don't know how to estimate cost of a policy"
+        },
+        {
+          "text": "I'm thinking about getting insurance."
+        },
+        {
+          "text": "I want to get my group insured. will you be able to tell me the cost of a group insurance policy"
+        },
+        {
+          "text": "I would like a quote for firm protection"
+        },
+        {
+          "text": "Please tell me the price that will be charged for insurance"
+        },
+        {
+          "text": "Start policy quote"
+        },
+        {
+          "text": "What are the charges for buying an insurance policy?"
+        },
+        {
+          "text": "What is the cost for buying an agriculture insurance?"
+        },
+        {
+          "text": "What is the most basic policy?"
+        },
+        {
+          "text": "What's the lowest price for the insurance?"
+        },
+        {
+          "text": "Would you be able to provide me a list of estimated price an auto insurance would cost?"
+        }
+      ],
+      "description": "Request a price estimate on a policy."
+    },
+    {
+      "intent": "Insurance_Policy_Inquiry",
+      "examples": [
+        {
+          "text": "Am I covered for disability?"
+        },
+        {
+          "text": "Are pre-existing conditions covered?"
+        },
+        {
+          "text": "Can I be compensated for all the loss?"
+        },
+        {
+          "text": "Can you share a list of policy related exclusion?"
+        },
+        {
+          "text": "Coverage limit inquiry"
+        },
+        {
+          "text": "Does my dental filling coverage require me to pay up first before it takes effect?"
+        },
+        {
+          "text": "Does my patient record get factored into the cost?"
+        },
+        {
+          "text": "Do you apply deductions on each product?"
+        },
+        {
+          "text": "How much does emergency roadside cost?"
+        },
+        {
+          "text": "Is personal injury protection costly?"
+        },
+        {
+          "text": "Is there any way to know the travel theft can be covered under my running policy?"
+        },
+        {
+          "text": "I want to know theft of personal belongs during travel are covered under my current policy"
+        },
+        {
+          "text": "So what services are not a part of personal liability policy?"
+        },
+        {
+          "text": "Tell me more about increasing income protection"
+        },
+        {
+          "text": "What amount I have to pay if I get a business income coverage?"
+        },
+        {
+          "text": "What are the exclusions in my personal liability insurance?"
+        },
+        {
+          "text": "What are the sub limits?"
+        },
+        {
+          "text": "What is Basic Life Cover"
+        },
+        {
+          "text": "What is Fixed income protection"
+        },
+        {
+          "text": "What is max allowance on hospital room visit?"
+        },
+        {
+          "text": "What is the cost of health coverage?"
+        },
+        {
+          "text": "Why are ambulance charges not considered?"
+        },
+        {
+          "text": "Why is this feature so expensive?"
+        }
+      ],
+      "description": "Request information about a policy."
+    },
+    {
+      "intent": "Insurance_View_Policy",
+      "examples": [
+        {
+          "text": "Can I view the details of the agreement?"
+        },
+        {
+          "text": "Can you please show me my insurance policy?"
+        },
+        {
+          "text": "How do I download the policy to see?"
+        },
+        {
+          "text": "I want to look at policy terms."
+        },
+        {
+          "text": "I would prefer to view the contents of the contract"
+        },
+        {
+          "text": "List all risks"
+        },
+        {
+          "text": "Please show me my policy"
+        },
+        {
+          "text": "Pull up my policy please"
+        },
+        {
+          "text": "Read contract"
+        },
+        {
+          "text": "See contract"
+        },
+        {
+          "text": "Show policy"
+        },
+        {
+          "text": "Tell me everything is covered"
+        },
+        {
+          "text": "Terms and conditions info."
+        },
+        {
+          "text": "View policy"
+        },
+        {
+          "text": "What is link to download insurance policy?"
+        },
+        {
+          "text": "What is the expiration date of my health insurance?"
+        },
+        {
+          "text": "What is the start date of insurance?"
+        },
+        {
+          "text": "What's in my plan?"
+        },
+        {
+          "text": "What's the full amount of things which the plan covers?"
+        },
+        {
+          "text": "Where is the contract for insurance?"
+        }
+      ],
+      "description": "View the details of a policy."
+    },
+    {
+      "intent": "onward_travel",
+      "examples": [
+        {
+          "text": "*I will further travel to *"
+        },
+        {
+          "text": "*I will go to*"
+        },
+        {
+          "text": "*I will return to *"
+        },
+        {
+          "text": "*My onward journey is for *"
+        },
+        {
+          "text": "*Next I will go to *"
+        },
+        {
+          "text": "*yes to *"
+        }
+      ]
+    },
+    {
+      "intent": "reply_details",
+      "examples": [
+        {
+          "text": "* call me *"
+        },
+        {
+          "text": "i am *"
+        },
+        {
+          "text": "i am called *"
+        },
+        {
+          "text": "i am planning *"
+        },
+        {
+          "text": "I am planning to travel *"
+        },
+        {
+          "text": "I am travelling *"
+        },
+        {
+          "text": "it is *"
+        },
+        {
+          "text": "it's *"
+        },
+        {
+          "text": "its *"
+        },
+        {
+          "text": "my age is *"
+        },
+        {
+          "text": "my name is *"
+        },
+        {
+          "text": "my plan is *"
+        },
+        {
+          "text": "with *"
+        },
+        {
+          "text": "* years"
+        },
+        {
+          "text": "* years old"
+        },
+        {
+          "text": "yes"
+        }
+      ]
+    },
+    {
+      "intent": "term_insurance",
+      "examples": [
+        {
+          "text": "can I get a travel insurance"
+        },
+        {
+          "text": "how can I get a travel insurance"
+        },
+        {
+          "text": "I am looking for a travel insurance"
+        },
+        {
+          "text": "insurance"
+        },
+        {
+          "text": "* insurance for travel *"
+        },
+        {
+          "text": "I want a quote for insurance"
+        },
+        {
+          "text": "i want a travel insurance"
+        },
+        {
+          "text": "i want a travelinsurance"
+        },
+        {
+          "text": "looking for a travel insurance"
+        },
+        {
+          "text": "* term insurance *"
+        },
+        {
+          "text": "* travel insurance *"
+        },
+        {
+          "text": "what is term insurance"
+        }
+      ]
+    },
+    {
+      "intent": "welcome_greetings",
+      "examples": [
+        {
+          "text": "gm"
+        },
+        {
+          "text": "gn"
+        },
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "good night"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "Hello!"
+        },
+        {
+          "text": "Hi *"
+        },
+        {
+          "text": "Hi!"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Apply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Apply",
+          "synonyms": [
+            "Buy",
+            "Take"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "bye",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bye",
+          "synonyms": [
+            "ciao",
+            "have a good day",
+            "thank you"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "claim_settlement_ratio",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Claim Settlement Ratio",
+          "synonyms": [
+            "claims settlement ration",
+            "csr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "settlement ratio",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "claims_settled",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "claims settled",
+          "synonyms": [
+            "claim settled"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "details",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "about",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "explain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "what is",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "EMI",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "emi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "installment",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "frequency",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "half yearly",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "monthly",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "quarterly",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yearly",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "gender",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "female",
+          "synonyms": [
+            "email"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "male",
+          "synonyms": [
+            "mail"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "insurance_company",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "this company",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Your company",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "Plans",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Basic Life Cover",
+          "synonyms": [
+            "basic cover",
+            "basic life",
+            "life cover"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fixed Income Protection",
+          "synonyms": [
+            "Fixed Income",
+            "Fixed Protection"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Increasing Income Protection",
+          "synonyms": [
+            "Increasing income"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Protection Type",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "protection_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "basic life cover",
+          "synonyms": [
+            "basic",
+            "basic life cover",
+            "life"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fixed Income Protection",
+          "synonyms": [
+            "Fixed income",
+            "Income Protection"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Increasin Income Protection",
+          "synonyms": [
+            "Income Protection",
+            "Increasing Income"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "ranking",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ranking",
+          "synonyms": [
+            "top",
+            "top ranking"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "regulatory",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "regulatory body",
+          "synonyms": [
+            "irdai compliant"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "residing_country",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "India",
+          "synonyms": [
+            "india"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Response",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "I don't want to",
+            "is it required?",
+            "later",
+            "n",
+            "nah",
+            "Negative",
+            "never",
+            "NO",
+            "nope",
+            "nopes",
+            "no please",
+            "Not",
+            "nothing",
+            "not interested",
+            "not sure",
+            "please no"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": [
+            "Alright",
+            "as you wish",
+            "Certainly",
+            "cool",
+            "Definitely",
+            "done",
+            "fine",
+            "go ahead",
+            "goahead",
+            "go on",
+            "of course",
+            "Ok",
+            "okay",
+            "okk",
+            "please",
+            "shoot",
+            "sure",
+            "y",
+            "ya",
+            "yaa",
+            "yea",
+            "yeah",
+            "yess",
+            "yes you can",
+            "yo",
+            "yup"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "term",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "term",
+          "patterns": [
+            "\\d[10-35]",
+            "\\d[10-35] years"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "thanks",
+      "values": []
+    },
+    {
+      "entity": "turn_over",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "turnover",
+          "synonyms": [
+            "turn over"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please tell me your Name followed by Date Of Birth and Annual Income"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1529676028916",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_11_1529679009124",
+      "previous_sibling": "handler_12_1529681209244"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "node_3_1529676028916",
+      "event_name": "generic",
+      "dialog_node": "handler_11_1529681171318",
+      "previous_sibling": "node_29_1529680118610"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please tell me your gender."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_29_1529680118610",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_1_1529680267134",
+      "previous_sibling": "slot_14_1529731515030"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "node_3_1529676028916",
+      "event_name": "generic",
+      "dialog_node": "handler_12_1529681209244",
+      "previous_sibling": "handler_11_1529681171318"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_12_1529679009178",
+      "context": {
+        "applicant_name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_13_1529679009178",
+      "previous_sibling": "handler_14_1529679009178"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your name"
+      },
+      "parent": "slot_12_1529679009178",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_14_1529679009178"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_13_1529681413988",
+      "context": {
+        "protection_type": "@Plans"
+      },
+      "metadata": {},
+      "conditions": "@Plans",
+      "event_name": "input",
+      "dialog_node": "handler_14_1529681413988",
+      "previous_sibling": "handler_15_1529681413988"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Enter a protection type. Select one among Basic Life Cover, Fixed Income Protection or Increasing Income Protection."
+      },
+      "parent": "slot_13_1529681413988",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_15_1529681413988"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_14_1529731515030",
+      "context": {
+        "term": "@term.literal"
+      },
+      "metadata": {},
+      "conditions": "@term.literal",
+      "event_name": "input",
+      "dialog_node": "handler_15_1529731515030",
+      "previous_sibling": "handler_16_1529731515030"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_15_1529679100526",
+      "context": {
+        "applicant_age": "@sys-date"
+      },
+      "metadata": {},
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_16_1529679100526",
+      "previous_sibling": "handler_17_1529679100526"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter a term ranging between 10 years to 35 years."
+      },
+      "parent": "slot_14_1529731515030",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_16_1529731515030"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your Date of Birth"
+      },
+      "parent": "slot_15_1529679100526",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_17_1529679100526"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_18_1529679186670",
+      "context": {
+        "annual_income": "@sys-currency"
+      },
+      "metadata": {},
+      "conditions": "@sys-currency",
+      "event_name": "input",
+      "dialog_node": "handler_19_1529679186670",
+      "previous_sibling": "handler_20_1529679186670"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Your annual income?"
+      },
+      "parent": "slot_18_1529679186670",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_20_1529679186670"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "I will need your annual income to proceed further"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_18_1529679186670",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_22_1529679235120",
+      "previous_sibling": "handler_19_1529679186670"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1529680267168",
+      "context": {
+        "gender": "@gender"
+      },
+      "conditions": "@gender",
+      "event_name": "input",
+      "dialog_node": "handler_3_1529680267168"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your gender"
+      },
+      "parent": "slot_2_1529680267168",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_4_1529680267168",
+      "previous_sibling": "handler_3_1529680267168"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1529730416496",
+      "context": {
+        "frequency": "@frequency"
+      },
+      "conditions": "@frequency",
+      "event_name": "input",
+      "dialog_node": "handler_4_1529730416496"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_12_1529679009178",
+      "metadata": {},
+      "event_name": "filled",
+      "dialog_node": "handler_5_1529680821110",
+      "previous_sibling": "handler_13_1529679009178"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "What premium payment frequency would you prefer? Monthly, Quarterly, Half Yearly or Yearly?"
+      },
+      "parent": "slot_3_1529730416496",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1529730416496",
+      "previous_sibling": "handler_4_1529730416496"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_12_1529679009178",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_7_1529681057302",
+      "previous_sibling": "handler_5_1529680821110"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_7_1529676662396",
+      "context": {
+        "term_insurance": "#term_insurance"
+      },
+      "conditions": "#term_insurance",
+      "event_name": "input",
+      "dialog_node": "handler_8_1529676662396"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1529676662396",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1529676662396",
+      "previous_sibling": "handler_8_1529676662396"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "I will need your Date of Birth to proceed further"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_15_1529679100526",
+      "event_name": "nomatch",
+      "dialog_node": "handler_9_1529681088554",
+      "previous_sibling": "handler_16_1529679100526"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "metadata": {},
+      "conditions": "#company_details || @insurance_company",
+      "digress_in": "returns",
+      "dialog_node": "node_10_1491402306628",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1529729500780"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "¡Hola! ¿Cómo puedo ayudarle?"
+      },
+      "metadata": {},
+      "conditions": "conversation_start",
+      "dialog_node": "node_1_1477482535266"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "On death during the Policy term, Sum Assured as a lump sum is paid to the nominee and the policy terminates."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Insurance_Policy_Inquiry && @protection_type:(basic life cover)",
+      "digress_in": "returns",
+      "dialog_node": "node_1_1529729500780",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1529729686982"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Income Protection Insurance (IPI) is an insurance policy, available principally in Australia, Ireland, New Zealand, South Africa, and the United Kingdom, paying benefits to policyholders who are incapacitated and hence unable to work due to illness or accident."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Insurance_Policy_Inquiry && @protection_type:(Increasin Income Protection)",
+      "digress_in": "returns",
+      "dialog_node": "node_1_1529729686982",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1529675884884"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "The claims settlement ratio for our company is 95.6%"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1491402306628",
+      "conditions": "@claim_settlement_ratio",
+      "dialog_node": "node_12_1491403419350"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Claims settled by our company till date amounts to 2,576 crores."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1491402306628",
+      "conditions": "@claims_settled",
+      "dialog_node": "node_13_1491403824529",
+      "previous_sibling": "node_12_1491403419350"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Our company ranks 5 as per IRDAI."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1491402306628",
+      "metadata": {},
+      "conditions": "@ranking",
+      "dialog_node": "node_14_1491403932459",
+      "previous_sibling": "node_13_1491403824529"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Our company is IRDAI compliant."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1491402306628",
+      "metadata": {},
+      "conditions": "@regulatory",
+      "dialog_node": "node_16_1491404153556",
+      "previous_sibling": "node_14_1491403932459"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Lo siento, no he podido entender su respuesta. Inténtelo de nuevo."
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1477483112882"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1477482550429",
+      "previous_sibling": "node_3_1529907741980"
+    },
+    {
+      "type": "standard",
+      "title": "Term Insurance",
+      "output": {
+        "text": {
+          "values": [
+            "You have come to the right place We offer you a smart, affordable and convenient way to safeguard the future for you and your family. Can I ask you a couple of questions to come up with the best plan for you?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#term_insurance || #Insurance_Get_Quote",
+      "dialog_node": "node_2_1529675884884",
+      "previous_sibling": "node_3_1477483112882"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Fixed income refers to any type of investment under which the borrower or issuer is obliged to make payments of a fixed amount on a fixed schedule. For example, the borrower may have to pay interest at a fixed rate once a year, and to repay the principal amount on maturity."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Insurance_Policy_Inquiry && @protection_type:(Fixed Income Protection)",
+      "digress_in": "returns",
+      "dialog_node": "node_2_1529730150944",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_6_1529676597774"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "text": {
+          "values": [
+            "Your $frequency premium for $term years under the $protection_type plan is 67767 dollars. Do you want to try any other options or go ahead with buying this?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1529676028916",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "@Response",
+      "dialog_node": "node_29_1529680118610",
+      "digress_out": "allow_all",
+      "digress_out_slots": "allow_returning"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "¡Hola! ¿Cómo puedo ayudarle?"
+      },
+      "conditions": "#welcome_greetings",
+      "dialog_node": "node_3_1477483112882",
+      "previous_sibling": "node_2_1529730150944"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "text": {
+          "values": [
+            "Do you smoke?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1529675884884",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#reply_details || @Response:Yes",
+      "dialog_node": "node_3_1529676028916",
+      "digress_out": "allow_all",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Have a good day."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_3_1529774008816",
+      "previous_sibling": "node_10_1491402306628"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Ok Have a great day."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#depart_greetings || #exiting",
+      "dialog_node": "node_3_1529907741980",
+      "previous_sibling": "node_3_1529774008816"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Is there anything else I can help you with?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1529675884884",
+      "metadata": {},
+      "conditions": "@Response:No",
+      "dialog_node": "node_4_1529676489982",
+      "previous_sibling": "node_3_1529676028916"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Term life insurance or term assurance is life insurance that provides coverage at a fixed rate of payments for a limited period of time, the relevant term. After that period expires, coverage at the previous rate of premiums is no longer guaranteed and the client must either forgo coverage or potentially obtain further coverage with different payments or conditions."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#term_insurance && @details",
+      "digress_in": "returns",
+      "dialog_node": "node_6_1529676597774",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1477482535266"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1529676028916",
+      "metadata": {},
+      "variable": "$applicant_name",
+      "dialog_node": "slot_12_1529679009178",
+      "previous_sibling": "handler_11_1529679009124"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_29_1529680118610",
+      "metadata": {},
+      "variable": "$protection_type",
+      "dialog_node": "slot_13_1529681413988",
+      "previous_sibling": "slot_2_1529680267168"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_29_1529680118610",
+      "metadata": {},
+      "variable": "$term",
+      "dialog_node": "slot_14_1529731515030",
+      "previous_sibling": "slot_3_1529730416496"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1529676028916",
+      "metadata": {},
+      "variable": "$applicant_age",
+      "dialog_node": "slot_15_1529679100526",
+      "previous_sibling": "slot_12_1529679009178"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1529676028916",
+      "metadata": {},
+      "variable": "$annual_income",
+      "dialog_node": "slot_18_1529679186670",
+      "previous_sibling": "slot_15_1529679100526"
+    },
+    {
+      "type": "slot",
+      "parent": "node_29_1529680118610",
+      "variable": "$gender",
+      "dialog_node": "slot_2_1529680267168"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_29_1529680118610",
+      "metadata": {},
+      "variable": "$frequency",
+      "dialog_node": "slot_3_1529730416496",
+      "previous_sibling": "slot_13_1529681413988"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1529676597774",
+      "metadata": {},
+      "variable": "$term_insurance",
+      "dialog_node": "slot_7_1529676662396"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "Tell me what is basic life cover"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "name": "insurance-voice-bot",
+  "language": "en",
+  "description": "This is the bot for the Code Pattern"
+}
